@@ -73,8 +73,8 @@ public class MainActivity extends Activity {
 		//
 
 		// Run socket.io client
-		// MyTask rth = new MyTask(this);
-		// rth.execute();
+		MyTask rth = new MyTask(this);
+		rth.execute();
 	}
 
 	@Override
